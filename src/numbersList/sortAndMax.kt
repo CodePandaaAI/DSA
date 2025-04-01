@@ -1,3 +1,5 @@
+package numbersList
+
 fun main() {
     val noList = mutableListOf(8, 7, 4, 3, 1, 2)
     for (i in 0..<noList.size) {
