@@ -4,7 +4,7 @@ fun main() {
     val numbers = listOf(10, 20, 30, 40, 50)
     val target = 30
     var isThere = false
-    var index: Int = 0
+    var index = 0
     for (i in numbers.indices) {
         if (numbers[i] == target) {
             isThere = true
