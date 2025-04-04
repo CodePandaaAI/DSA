@@ -1,4 +1,4 @@
-package listString
+package strings
 
 fun main() {
     val stringRev = "hello".toCharArray()

@@ -1,4 +1,4 @@
-package numbersList
+package numbers
 
 fun main() {
     val noList = mutableListOf(8, 7, 4, 3, 1, 2)
@@ -11,5 +11,5 @@ fun main() {
             }
         }
     }
-    println("Sorted List: ${noList.firstOrNull()}")
+    println("Sorted List: ${noList.lastOrNull()}")
 }

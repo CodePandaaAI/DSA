@@ -1,4 +1,4 @@
-package numbersList
+package numbers
 
 data class ListStuff(
     val noList: MutableList<Int>

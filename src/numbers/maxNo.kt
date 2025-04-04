@@ -1,4 +1,4 @@
-package numbersList//fun main() {
+package numbers//fun main() {
 //    val a = listOf<Int>(1,2,3,4,5,6)
 //    println(findMax(a) ?: "Poppat Ho gya apka")
 //}

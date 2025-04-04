@@ -1,4 +1,4 @@
-package listString
+package strings
 
 fun main() {
     val sentence = "I love kotlin".split(" ")
