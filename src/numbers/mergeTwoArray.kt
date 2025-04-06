@@ -16,6 +16,5 @@ fun main() {
             }
         }
     }
-
     println(mergedList)
 }
