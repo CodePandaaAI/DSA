@@ -32,7 +32,7 @@ fun jumpSearch(list: List<Int>, target: Int): Int {
     println("\n🧱 Block suspected: [$prev, ${min(curr, n) - 1}]. Now doing Linear Search in this range...")
 
     // Step 3️⃣: Linear Search in suspected block
-    for (i in prev until min(curr, n)) {
+    for (i in prev..<min(curr, n)) {
         println("🔎 Checking index $i → list[$i] = ${list[i]}")
         if (list[i] == target) {
             println("✅ Found! list[$i] == $target")
@@ -47,7 +47,7 @@ fun jumpSearch(list: List<Int>, target: Int): Int {
 
 fun main() {
     val list = listOf(1, 3, 5, 7, 9, 11, 13, 15, 17, 19)
-    val target = 19
+    val target = 5
 
     println("📦 Sorted List: $list")
     println("🎯 Searching for: $target\n")
