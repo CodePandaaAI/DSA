@@ -37,7 +37,7 @@ fun exponentialSearch(list: List<Int>, target: Int): Int {
 
 fun main() {
     val list = listOf(1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21)
-    val target = 15
+    val target = 21
     val result = exponentialSearch(list, target)
 
     if (result != -1)
