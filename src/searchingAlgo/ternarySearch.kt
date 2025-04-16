@@ -3,7 +3,6 @@ package searchingAlgo
 fun ternarySearch(list: List<Int>, target: Int): Int {
     var low = 0
     var high = list.lastIndex
-
     // listOf(2, 4, 6, 8, 10, 12, 14, 16, 18)
     while (low <= high) {
         val mid1 = low + (high - low) / 3
